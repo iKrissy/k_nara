@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>K&NARA</title>
+        <link rel="stylesheet" href="./lightbox/css/lightbox.css">
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                }
+
+                body {
+                        background-image: url(./img/2022ss/front.jpg);
+                        background-size: 75%;
+                        background-position: top right;
+                        background-repeat: no-repeat;
+                }
+
+                .wrap {
+                        /* border:1px solid red; */
+                        width: 100%;
+                }
+
+                #header #logo1 {
+                        margin-top: 20px;
+                        margin-left: 15px;
+                        float: top;
+                }
+
+                #nav {
+                        width: 1200px;
+                        height: 400px;
+                        margin: 0px 30px;
+                        margin-bottom: 520px;
+                        text-decoration: none;
+                }
+
+                #nav ul {
+                        list-style: none;
+                }
+
+                #nav ul li a {
+                        color: black;
+                        text-decoration: none;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        line-height: 1.7;
+                }
+
+                #nav ul ul {
+                        position: absolute;
+                        left: 150px;
+                        top: 101px;
+                        display: none;
+                }
+
+                #nav li:hover ul {
+                        display: block;
+                }
+
+                #nav li li {
+                        clear: left;
+                }
+
+                #nav li:hover a {
+                        color: rgb(83, 136, 103);
+                        font-size: 16.5px;
+                }
+
+                #nav li li:hover a {
+                        color: #000;
+                        font-size: 17px;
+                }
+
+                #look {
+                        text-align: center;
+                }
+
+                #look img {
+                        padding: 80px;
+                }
+
+                #look h2 {
+                        text-align: center;
+                        line-height: 2;
+                        color: #020202;
+                }
+
+                #look h4 {
+                        text-align: center;
+                        line-height: 2;
+                        color: #6b6868;
+                }
+
+                #content img {
+                        box-shadow: 0 0 10px #333;
+                        border-color: #000;
+                        width: 300px;
+                        height: auto;
+                        margin-top: 50px;
+                        margin-left: 63px;
+                }
+
+                #footer {
+                        background-color: rgba(0, 0, 0, 0.897);
+                        color: #fff;
+                        margin-top: 50px;
+                        padding-bottom: 10px;
+                        text-align: center;
+                }
+        </style>
+</head>
+
+<body>
+        <div class="wrap">
+                <div id="header">
+                        <div id="logo1"><a href="index.html"><img src="./icon/logo01.png" alt=""></a></div>
+                </div>
+                <div id="nav">
+                        <ul>
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="collection.html">COLLECTION</a>
+                                        <ul>
+                                                <li><a href="nara24trend.html">24TREND</a></li>
+                                                <li><a href="nara23aw.html">23AW</a></li>
+                                                <li><a href="nara23ss.html">23SS</a></li>
+                                                <li><a href="nara22aw.html">22AW</a></li>
+                                                <li><a href="nara22ss.html">22SS</a></li>
+                                                <li><a href="nara21aw.html">21AW</a></li>
+                                                <li><a href="nara21ss.html">21SS</a></li>
+                                                <li><a href="nara20aw.html">20AW</a></li>
+                                                <li><a href="nara20ss.html">20SS</a></li>
+                                                <li><a href="nara19aw.html">19AW</a></li>
+                                                <li><a href="nara19ss.html">19SS</a></li>
+                                                <li><a href="nara18aw.html">18AW</a></li>
+                                                <li><a href="nara18ss.html">18SS</a></li>
+                                                <li><a href="nara17aw.html">17AW</a></li>
+                                                <li><a href="nara17ss.html">17SS</a></li>
+                                                <li><a href="nara16aw.html">16AW</a></li>
+                                                <li><a href="nara16ss.html">16SS</a></li>
+                                                <li><a href="nara15aw.html">15AW</a></li>
+                                                <li><a href="show.html">SHOW</a></li>
+                                        </ul>
+                                </li>
+                                <li><a href="film.html">FILM</a></li>
+                                <li><a href="experience.html">EXPERIENCE</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                </div>
+
+                <div id="look">
+                        <img src="./img/cover/theme.png" alt="">
+                        <h2>海洋風——清新悠然的夏日風情</h2>
+                        <h4>這季春夏，我們從海洋中汲取靈感，設計了一個清新悠然的海洋風系列
+                                <br>清爽的海藍色、薄荷綠、沙灘黃等色調，搭配輕盈的棉麻與絲綢面料，讓每一件單品都帶有夏季的清涼感
+                                <br>無論是海邊度假還是城市穿搭，這個系列都能讓你感受到輕鬆與自在</h4>
+
+                        <img src="./img/cover/lookbook.png" alt="">
+                </div>
+
+                <div id="content">
+                        <script src="./js/jquery-1.11.3.min.js"></script>
+                        <script src="./lightbox/js/lightbox.js"></script>
+
+                        <a href="./img/2022ss/1.jpg" data-lightbox="photo"><img src="./img/2022ss/1.jpg" alt=""></a>
+                        <a href="./img/2022ss/2.jpg" data-lightbox="photo"><img src="./img/2022ss/2.jpg" alt=""></a>
+                        <a href="./img/2022ss/3.jpg" data-lightbox="photo"><img src="./img/2022ss/3.jpg" alt=""></a>
+                        <a href="./img/2022ss/4.jpg" data-lightbox="photo"><img src="./img/2022ss/4.jpg" alt=""></a>
+                        <a href="./img/2022ss/5.jpg" data-lightbox="photo"><img src="./img/2022ss/5.jpg" alt=""></a>
+                        <a href="./img/2022ss/6.jpg" data-lightbox="photo"><img src="./img/2022ss/6.jpg" alt=""></a>
+                        <a href="./img/2022ss/7.jpg" data-lightbox="photo"><img src="./img/2022ss/7.jpg" alt=""></a>
+                        <a href="./img/2022ss/8.jpg" data-lightbox="photo"><img src="./img/2022ss/8.jpg" alt=""></a>
+                        <a href="./img/2022ss/9.jpg" data-lightbox="photo"><img src="./img/2022ss/9.jpg" alt=""></a>
+                        <a href="./img/2022ss/10.jpg" data-lightbox="photo"><img src="./img/2022ss/10.jpg" alt=""></a>
+                        <a href="./img/2022ss/11.jpg" data-lightbox="photo"><img src="./img/2022ss/11.jpg" alt=""></a>
+                        <a href="./img/2022ss/12.jpg" data-lightbox="photo"><img src="./img/2022ss/12.jpg" alt=""></a>
+                        <a href="./img/2022ss/13.jpg" data-lightbox="photo"><img src="./img/2022ss/13.jpg" alt=""></a>
+                        <a href="./img/2022ss/14.jpg" data-lightbox="photo"><img src="./img/2022ss/14.jpg" alt=""></a>
+                        <a href="./img/2022ss/15.jpg" data-lightbox="photo"><img src="./img/2022ss/15.jpg" alt=""></a>
+                        <a href="./img/2022ss/16.jpg" data-lightbox="photo"><img src="./img/2022ss/16.jpg" alt=""></a>
+                        <a href="./img/2022ss/17.jpg" data-lightbox="photo"><img src="./img/2022ss/17.jpg" alt=""></a>
+                        <a href="./img/2022ss/18.jpg" data-lightbox="photo"><img src="./img/2022ss/18.jpg" alt=""></a>
+                        <a href="./img/2022ss/19.jpg" data-lightbox="photo"><img src="./img/2022ss/19.jpg" alt=""></a>
+                        <a href="./img/2022ss/20.jpg" data-lightbox="photo"><img src="./img/2022ss/20.jpg" alt=""></a>
+                        <a href="./img/2022ss/21.jpg" data-lightbox="photo"><img src="./img/2022ss/21.jpg" alt=""></a>
+                        <a href="./img/2022ss/22.jpg" data-lightbox="photo"><img src="./img/2022ss/22.jpg" alt=""></a>
+                        <a href="./img/2022ss/23.jpg" data-lightbox="photo"><img src="./img/2022ss/23.jpg" alt=""></a>
+                        <a href="./img/2022ss/24.jpg" data-lightbox="photo"><img src="./img/2022ss/24.jpg" alt=""></a>
+                        <a href="./img/2022ss/25.jpg" data-lightbox="photo"><img src="./img/2022ss/25.jpg" alt=""></a>
+                        <a href="./img/2022ss/26.jpg" data-lightbox="photo"><img src="./img/2022ss/26.jpg" alt=""></a>
+                        <a href="./img/2022ss/27.jpg" data-lightbox="photo"><img src="./img/2022ss/27.jpg" alt=""></a>
+                        <a href="./img/2022ss/28.jpg" data-lightbox="photo"><img src="./img/2022ss/28.jpg" alt=""></a>
+                        <a href="./img/2022ss/29.jpg" data-lightbox="photo"><img src="./img/2022ss/29.jpg" alt=""></a>
+                        <a href="./img/2022ss/30.jpg" data-lightbox="photo"><img src="./img/2022ss/30.jpg" alt=""></a>
+                </div>
+
+                <div id="footer">
+                        <div id="logo2"><a href="nara22ss.html"><img src="./icon/logo02.png" alt=""></a></div>
+                        <h4>&copy 2024 K&NARA All rights reserved.</h4>
+                </div>
+        </div>
+
+</body>
+
+</html>
